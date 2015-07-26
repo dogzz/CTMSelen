@@ -10,6 +10,8 @@ driver.implicitly_wait(2)
 
 Tools.WinAuthLogin(driver)
 Tools.NavigateToScreen(CTMConst.StudyList, driver)
+#asdasdasd orig in main updated in feature
+#new line in master
 //asdasdasd orig in main updated in feature updated in feature 2
 inputElement = Tools.FindInFramesXPRec("//input[@value='Change Search...']", driver)
 if inputElement != None:
